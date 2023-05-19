@@ -1,10 +1,15 @@
 import { FC } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App: FC = () => {
   return (
-    <main>
-      <h1>Hello World!</h1>
-    </main>
+    // <BrowserRouter>
+    // <Routes>
+    //   <Route path='/' element={CHANGETHIS}>
+    //     <Route index element={CHANGETHIS} />
+    //   </Route>
+    // </Routes>
+    // </BrowserRouter>
   );
 };
 
