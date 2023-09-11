@@ -5,8 +5,8 @@ const App: FC = () => {
   return (
     // <BrowserRouter>
     // <Routes>
-    //   <Route path='/' element={CHANGETHIS}>
-    //     <Route index element={CHANGETHIS} />
+    //   <Route path='/' element={Layout}>
+    //     <Route index element={Home page} />
     //   </Route>
     // </Routes>
     // </BrowserRouter>
