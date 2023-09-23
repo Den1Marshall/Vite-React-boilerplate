@@ -10,6 +10,7 @@
 - react-spring.
 - react-router-dom.
 - Redux Toolkit.
+- Redux Persist.
 - TypeScript.
 - Versatile file structure.
 - OG meta tags for web, Facebook, Twitter (SEO).
