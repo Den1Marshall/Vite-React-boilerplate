@@ -2,16 +2,17 @@
 
 ## Features:
 
-- made from clean `yarn create vite . --template react-ts`
-- normalize.css
-- MUI
-- RTK
-- react-router-dom
-- TypeScript
-- Versatile file structure
-- Theme color meta tags
-- OG meta tags for web, Facebook, Twitter
-- Preloader made by plain HTML, CSS, JS all in one tag (easy to remove)
-- Manifest.json for standalone view and more native feel
-- robots.txt for SEO
-- noscript tag for alerting users, that have disabled JS.
+- made from clean `yarn create vite . --template react-ts`.
+- normalize.css.
+- MUI.
+- MUI icons.
+- SASS support.
+- react-spring.
+- react-router-dom.
+- Redux Toolkit.
+- TypeScript.
+- Versatile file structure.
+- OG meta tags for web, Facebook, Twitter (SEO).
+- robots.txt (SEO).
+- noscript tag for users, that have disabled JS.
+- Offline-ready (with Vite PWA).
