@@ -8,6 +8,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'prompt',
+      workbox: {
+        globPatterns: ['**/*.*'],
+      },
       devOptions: {
         enabled: true,
       },
