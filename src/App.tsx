@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './layouts/Layout';
 import Home from './pages/Home';
-import { ThemeProvider, useMediaQuery } from '@mui/material';
+import { CssBaseline, ThemeProvider, useMediaQuery } from '@mui/material';
 import { darkTheme, lightTheme } from './theme/theme';
 import updateSW from './utils/updateSW';
 
@@ -15,6 +15,7 @@ const App: FC = () => {
 
   return (
     <ThemeProvider theme={prefersDarkMode ? darkTheme : lightTheme}>
+      <CssBaseline enableColorScheme />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>

@@ -1,6 +1,3 @@
-/* Imports */
-@import 'normalize.css';
-
 /* Fonts */
 @font-face {
   font-family: 'CHANGETHIS';
@@ -12,9 +9,6 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   user-select: none;
   -webkit-user-select: none;
 }
